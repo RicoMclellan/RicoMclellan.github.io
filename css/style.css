@@ -1,4 +1,6 @@
 .header{
     display: flex;
     flex-direction: column;
+    align-content: center;
+    background-image: url("https://www.sportsnet.ca/wp-content/uploads/2020/04/scotiabank-arena-empty.jpg");
 }
