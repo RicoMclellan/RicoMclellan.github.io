@@ -1,6 +1,64 @@
+.html{
+    background-color: blue;
+}
+
 .header{
     display: flex;
+    font-size:xx-large;
+     background-color: black;
     flex-direction: column;
+     color:darkcyan;
+    align-items: center;
+   
+    
+ /* background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/238880292_4591674347509274_1713131874813876812_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=teRwLj1YUN0AX9sidlO&tn=P2OAcE1wYsB8CQ0J&_nc_ht=scontent-ort2-2.xx&oh=369659ab786fdd53e9d50efa7bf01f3b&oe=616578BC"); */
+    
+}
+.section1{
+   display: flex;
+    padding: auto;
+    margin: auto;
+    
+    flex-direction: column;
+    align-content: center; 
+    background-color:darkcyan;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    display: flex;
+    padding: auto;
+    margin: auto;
+     /* height: 100px;
+    width: 200px; */
+    flex-direction: column; 
     align-content: center;
-    background-image: url("https://www.sportsnet.ca/wp-content/uploads/2020/04/scotiabank-arena-empty.jpg");
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.article{
+    display: flex;
+    padding: auto;
+    margin: auto;
+     /* height: 100px;
+    width: 200px; */
+    flex-direction: column; 
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer{
+    display: flex;
+    padding: auto;
+    margin: auto;
+     /* height: 100px;
+    width: 200px; */
+    flex-direction: column; 
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
 }
