@@ -1,30 +1,72 @@
 .header{
-
-
-
-    font-size:x-large;
     display:flex;
-    padding-right: auto;
-    box-decoration-break: inherit;
-    align-items:center;
-    justify-content:space-between;
-    color:red;
-    flex-direction:row;
-    border-image: round;
-    background-color: black;
-    box-sizing: border-box;
+    flex-direction: row;
+    align-items:flex-start;
+    align-content:flex-start;
     margin: 5px;
-    
-    
-  
+    justify-content: space-between;
+    font-size: x-large;
+    color:red;
+    background-image:  url(https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg);
+    background-color:red;
 }
+ .nav-bar{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    align-items: center;
+    margin-bottom: 5px;
+    margin: 5px;
+    justify-content: space-between;
+    color:red;
+} 
+a.nav-link {
+    font-weight: bold;
+    padding: 5px;
+    color: red;
+    text-decoration: none;
+} 
+.Project{ 
+    display: flex;
+    color: red;
+    padding: 10px;
+} 
 .section{
     display: flex;
-    font-size: x-large;
+    font-size:medium;
     margin: 5px;
     background-color: black;
     color: red;
-    justify-content:space-between;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.Skills{
+    display: flex;
+
+}
+.Front{
+    display: flex;
+}
+.Back{
+    display:flex;
+}
+.Image{
+    display: flex;
+}
+
+.Virtual {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+.Virtual  image{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 body{
     background-color:black;
@@ -33,28 +75,25 @@ body{
     display: flex;
     color:red;
     background-color: black;
-    /* justify-content: flex-start; */
-}
-nav-bar {
-    display: flex;
-    margin-bottom: 7px;
-    width: 375px;
-    justify-content: space-between;
+    margin: 5px;
+    box-sizing:border-box;
+    justify-content: space-around;
+    justify-content: flex-start; 
 }
 
-a.nav-link {
-    
-    padding: 10px;
-    color:black;
-    text-decoration: none;
-    justify-content: space-between;
-}
 .footer{
-    display:flex;
-    margin: 5px;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    /* height: 4px; */
-    justify-content: center;
+    display: flex;
+    background-color: red;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
+.email{
+    display: flex;
+    justify-content: flex-end;
+    
+
+    
+
+}
+    
