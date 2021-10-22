@@ -59,45 +59,26 @@ a.nav-link {
 
 .Virtual {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     align-content: space-between;
+    justify-content: center;
 }
 .Virtual  image{
     display: flex;
     flex-direction: row;
     align-items: stretch;
 }
-body{
-    background-color:black;
-}
 .section2{
     display: flex;
     color:red;
-    background-color: black;
-    margin: 5px;
-    box-sizing:border-box;
-    justify-content: space-around;
-    justify-content: flex-start; 
 }
-
-.footer{
-    display: flex;
-    background-color: red;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-}
-.email{
-    display: flex;
-    justify-content: flex-end;
-    
-
-    
-
-}
-.Image{
-    display: flex;
-    justify-content: center;
-}
-    
+ .footer{
+     color:red;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+ } 
+ body{
+     background-color: black;
+ }
