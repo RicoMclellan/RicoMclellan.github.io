@@ -96,4 +96,8 @@ body{
     
 
 }
+.Image{
+    display: flex;
+    justify-content: center;
+}
     
